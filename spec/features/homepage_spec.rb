@@ -1,6 +1,12 @@
 feature 'Battle testing' do
-  scenario "homepage returns expected string" do
+
+  scenario "players fill in their names in a form" do
     visit '/'
-    expect(page).to have_content("Testing infrastructure working!")
+    fill_in 'player_1', with: 'Pablo'
+    fill_in 'player_2', with: 'Esme'
+    click_button('Submit')
+    expect(page).to have_content("Pablo")
+    expect(page).to have_content("Esme")
   end
 end
+
