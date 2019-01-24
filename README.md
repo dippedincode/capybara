@@ -1,4 +1,4 @@
-# capybara
+# Capybara - 2-player Battle web game
 ```
                               _,add8ba,
                             ,d888888888b,
@@ -44,6 +44,7 @@ Y88888b         `888888888b,      `""""^                `Y8888888P'       d888I
                                   `"YY88888888888P'
 ```
 Yes, that's a panda, not a capybara. I couldn't find ascii art of a capybara.
+
 About this challenge
 --------
 This challenge is about using capybara to test drive and build a web app that will be a simple online 2-player battle game.
